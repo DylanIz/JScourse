@@ -12,14 +12,14 @@ const rectangleArea = (width, height) => {
 It’s important to be familiar with the multiple ways of writing functions because you will come across each of these when reading other JavaScript code.
 */
 
-const plantNeedsWater = function(day) {
+/* const plantNeedsWater = function(day) {
     if (day === 'Wednesday') {
       return true;
     } else {
       return false;
     }
   };
-
+*/
   // changing to arrow function!
 
   const plantNeedsWater = (day) => {
