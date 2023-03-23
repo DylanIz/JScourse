@@ -26,3 +26,10 @@ The return keyword is powerful because it allows functions to produce an output.
 
 */
 
+function monitorCount(rows, columns) {
+  return rows * columns;
+}
+
+const numOfMonitors = monitorCount(5, 4);
+
+console.log(numOfMonitors);
